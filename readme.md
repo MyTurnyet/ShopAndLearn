@@ -34,19 +34,19 @@ These are initial requirements and may change as neeed arises.
 - **Rounding** - all taxes will be rounded to the nearest $0.05
  
 ### Goods
-Each good should have a SKU, Name, and Price.
+Each good should have a SKU, Name, Category, and Price.
 
 #### Initial Goods
 These are the initial items that we will have available for the roll out.  The prices aren't set in stone yet, 
 and we haven't come up with the store specials we'll be running.
 
-| SKU | Name  | Price | Imported
-| :---: | :--- | :---: | :---:
-| 1023 | Bandages | $5.75 | 
-| 2367 | Perfume | $15.00 | Yes
-| 3887 | Elegant Objects Book  | $40.00 | 
-| 4745 | Music CD | $14.99 |
-| 5291 | Dutch Chocolate | $16.85 | Yes 
-| 5634 | Chocolates | $10.00 |  
-| 6002 | Monopoly | $12.95 |
-| 6283 | Obscure Japanses Board Game | 55.00 | Yes
+| **SKU** | **Category** | **Name**  | **Price** | **Imported**
+| :---: | :--- | :--- | :---: | :---:
+| 1023 | Health | Bandages | $5.75 | 
+| 2367 | Beauty | Perfume | $15.00 | Yes
+| 3887 | Books | Elegant Objects Book  | $40.00 | 
+| 4745 | Music | The Corona Virus Hits CD | $14.99 |
+| 5291 | Food | Dutch Chocolate | $16.85 | Yes 
+| 5634 | Food | Chocolates | $10.00 |  
+| 6002 | Games | Monopoly | $12.95 |
+| 6283 | Games | Obscure Japanses Board Game | 55.00 | Yes
