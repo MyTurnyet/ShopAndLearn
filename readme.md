@@ -1,3 +1,5 @@
+[![BCH compliance](https://bettercodehub.com/edge/badge/MyTurnyet/ShopAndLearn?branch=master)](https://bettercodehub.com/)
+
 # ShopAndLearn
 This is a practice application to allow us to work on and discuss the _How_ and the _Why_ of Object Oriented Design
 
