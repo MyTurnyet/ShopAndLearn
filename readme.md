@@ -28,16 +28,16 @@ These are initial requirements and may change as neeed arises.
 - Payments will be in US Dollars ($USD), but may someday be in other currencies.
 - All pricing will always be in US Dollars ($USD)
 - Taxes will be applied to items and will be as follows:
-- All goods will be subject to a 10% Tax, except: 
-    - Games
-    - Food
-    - Medical Products
-- Imported goods will be subject to an additional 5% tax, *no exceptions*
+  - All goods will be subject to a 10% Tax, except: 
+      - Games
+      - Food
+      - Medical Products
+  - Imported goods will be subject to an additional 5% tax, *no exceptions*
 - **Rounding** - all taxes will be rounded to the nearest $0.05
  
 ### Goods
 Each good will have a SKU, Name, Category, and Price.  
-Some goods will have a Description, or be marked "_imported_"
+Some goods will have a Description, or be marked "_imported_".  
 Books will have an author.
 
 #### Initial Goods
