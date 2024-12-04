@@ -36,19 +36,26 @@ These are initial requirements and may change as neeed arises.
 - **Rounding** - all taxes will be rounded to the nearest $0.05
  
 ### Goods
-Each good should have a SKU, Name, Category, and Price.
+Each good will have a SKU, Name, Category, and Price.  
+Some goods will have a Description, or be marked "_imported_"
+Books will have an author.
 
 #### Initial Goods
 These are the initial items that we will have available for the roll out.  The prices aren't set in stone yet, 
 and we haven't come up with the store specials we'll be running.
 
-| **SKU** | **Category** | **Name**  | **Price** | **Imported**
-| :---: | :--- | :--- | :---: | :---:
-| 1023 | Health | Bandages | $5.75 | 
-| 2367 | Beauty | Perfume | $15.00 | Yes
-| 3887 | Books | Elegant Objects Book  | $40.00 | 
-| 4745 | Music | The Corona Virus Hits CD | $14.99 |
-| 5291 | Food | Dutch Chocolate | $16.85 | Yes 
-| 5634 | Food | Chocolates | $10.00 |  
-| 6002 | Games | Monopoly | $12.95 |
-| 6283 | Games | Obscure Japanses Board Game | 55.00 | Yes
+| **SKU** | **Category** | **Name**                                           | **Description**                                                               | **Author**      | **Price** | **Imported** |
+|:-------:|:-------------|:---------------------------------------------------|:------------------------------------------------------------------------------|:----------------|:---------:|:------------:|
+|  1023   | Health       | Bandages                                           |                                                                               |                 |   $5.75   |              |
+|  2367   | Beauty       | Perfume                                            | Smells like old lady...                                                       |                 |  $15.00   |     Yes      |
+|  3887   | Books        | Elegant Objects Book                               | An object-oriented programming paradigm that renounces traditional techniques | Yegor Bugayenko |  $40.00   |              |
+|  3892   | Books        | Refactoring: Improving the Design of Existing Code | A book that every developer should read and own.                              | Marting Fowler  |  $32.00   |              |
+|  4745   | Music        | The Corona Virus Hits CD                           | All the hits from 2019-2023                                                   |                 |  $14.99   |              |
+|  5291   | Food         | Dutch Chocolate                                    |                                                                               |                 |  $16.85   |     Yes      |
+|  5634   | Food         | Chocolates                                         |                                                                               |                 |  $10.00   |              |
+|  6002   | Games        | Monopoly                                           |                                                                               |                 |  $12.95   |              |
+|  6283   | Games        | Obscure Japanese Board Game                        |                                                                               |                 |  $55.00   |     Yes      |
+|  7528   | Medical      | Vitamin A Tables                                   |                                                                               |                 |  $12.99   |              |
+|  7588   | Medical      | Mouth Retainer                                     | For use in Mouth only!                                                        |                 |  $34.78   |              |
+|  7684   | Medical      | Albuterol                                          |                                                                               |                 |  $134.58  |              |
+|  7991   | Medical      | Di-Hydrogen Monoxide Rinse                         | A universal dissolver, safe for human consumption in some quantities.         |                 |   $2.60   |     Yes      |
