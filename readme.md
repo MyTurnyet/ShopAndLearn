@@ -1,4 +1,3 @@
-[![BCH compliance](https://bettercodehub.com/edge/badge/MyTurnyet/ShopAndLearn?branch=master)](https://bettercodehub.com/)
 [![Java CI with Gradle](https://github.com/MyTurnyet/ShopAndLearn/actions/workflows/gradle.yml/badge.svg)](https://github.com/MyTurnyet/ShopAndLearn/actions/workflows/gradle.yml)  
 
 # ShopAndLearn
